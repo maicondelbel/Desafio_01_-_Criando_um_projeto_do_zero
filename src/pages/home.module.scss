@@ -1,1 +1,28 @@
-// TODO
+
+.post {
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  > div {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+}
+
+.postInfoDetails {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+
+  svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+
+.loadMore {
+  margin-top: 4rem;
+}

@@ -4,4 +4,41 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --white-50: #F8F8F8;
+  --pink-100: #FF57B2;
+  --black-900: #1A1D23;
+  --gray-150: #D7D7D7;
+  --gray-250: #BBBBBB;
+}
+
+body {
+  background: var(--black-900);
+  color: var(--gray-150);
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--white-50);
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: var(--white-50);
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  color: var(--pink-100);
+  cursor: pointer;
+}
+
+a {
+  color: var(--pink-100);
+  text-decoration: none;
+}

@@ -1,1 +1,46 @@
-// TODO
+.heroBanner {
+  width: 100%;
+  margin-bottom: 5rem;
+  
+  img {
+    max-height: 25rem;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.postInfo {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 1.5rem;
+  
+  > div {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+
+.post {
+  margin-top: 4rem;
+
+  h2 {
+    margin-bottom: 2.25rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 1.125rem;
+  }
+
+  div + div {
+    margin-top: 3.37rem;
+  }
+}
